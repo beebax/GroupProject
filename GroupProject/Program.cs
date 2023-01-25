@@ -7,3 +7,7 @@ List<Person> people = new List<Person>()
     new Person("Tee Sotomi", 40)
 };
 
+foreach (Person p in people)
+{
+    Console.WriteLine($"{p.Name} is {p.Age} years old");
+}
